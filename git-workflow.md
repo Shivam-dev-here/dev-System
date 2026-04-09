@@ -90,7 +90,6 @@
     <td><span style="color:red;">M</span><span style="color:green;">M</span></td><td>File staged and after modified</td></tr></table>
 
 ---
-
 ##### ==`git checkout index.html`==
 - Example
 	1. Earlier: `git status`: tree clean
@@ -99,6 +98,17 @@
 - For multiple files
 	`git checkout -f`
 	
+---
+##### `.gitignore`
+
+- ignore extension on entire repo  : ` *.env`
+- ignore a file on entire repo          : ` mylogs.log`
+- ignore a folder on entire repo     : ` mylogs/`
+- ignore a folder from root            : `/node_modules/slug/
+- `
+---
+
+
 ##### `git log`
 - Shows all commit with committer, author and details
 - Limited Commit `git log -p -6`  {6: last 6 commits}
@@ -117,6 +127,9 @@
 
 ##### `touch about.html`
 - creates a file
+
+---
+
 ---
 ## Some Keywords
 
