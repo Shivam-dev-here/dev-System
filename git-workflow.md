@@ -14,6 +14,27 @@
 - `perf` → performance improvement
 
 ---
+## Example
+
+```
+git add .
+git commit -m "init: setup project with Node.js"
+
+git add .
+git commit -m "feat: implement fs readFile"
+
+git add .
+git commit -m "feat: implement fs writeFile"
+
+git add .
+git commit -m "feat: implement fs appendFile"
+
+git add .
+git commit -m "refactor: clean code and structure"
+```
+
+---
+
 
 ## Initialize Repo
 
