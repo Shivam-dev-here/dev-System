@@ -66,7 +66,18 @@
 	3. Solution: `git checkout index.html`: Matched current directory with last commit
 - For multiple files
 	`git checkout -f`
+##### `clear`
+- cleans the terminal
 
+##### `git log`
+- Shows all commit with committer, author and details
+- Limited Commit `git log -p -6`  {6: last 6 commits}
+- q: to exit
+##### `git diff`
+- Compares working directory with Staged file
+- Shows: Both old and new code
+##### `git diff --staged`
+- - Compares working directory with last commit
 
 ---
 ## Some Keywords
