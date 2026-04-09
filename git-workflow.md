@@ -50,15 +50,47 @@
 - stages changes at onwards directory
 ##### `git add -A`
 - stages changes 
+##### `clear`
+- cleans the terminal
 ##### `ls -lart`
 - Shows all folders and file on current directory
+##### `ls`
+- Shows all files on current directory
+##### `git commit -a -m"not a good practice"`
+- skips staging and commits
+
+---
 ##### `git status`
-- after the last commit, does any changes occurred and what else "clean tree". 
-- Red: Non Staged files
-- Green: Ready to Commit 
-- Both Green and Red: g-last time staged file, r-new changes that aren't staged 
-##### `touch about.html`
-- creates a file
+1. Basic
+	- after the last commit, does any changes occurred and what else "clean tree". 
+	- Red: Non Staged files
+	- Green: Ready to Commit 
+	- Both Green and Red: g-last time staged file, r-new changes that aren't staged 
+2. Advance
+
+##### `git status -s`
+
+<table>
+  <tr>
+    <th>S.No</th>
+    <th>Name</th>
+    <th>Definition</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><span style="color:red;">M</span></td>
+    <td>Non Staged modified file</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><span style="color:green;">M</span></td>
+    <td>Staged modified file</td>
+  </tr>
+  <tr><td>3</td>
+    <td><span style="color:red;">M</span><span style="color:green;">M</span></td><td>File staged and after modified</td></tr></table>
+
+---
+
 ##### ==`git checkout index.html`==
 - Example
 	1. Earlier: `git status`: tree clean
@@ -66,19 +98,25 @@
 	3. Solution: `git checkout index.html`: Matched current directory with last commit
 - For multiple files
 	`git checkout -f`
-##### `clear`
-- cleans the terminal
-
+	
 ##### `git log`
 - Shows all commit with committer, author and details
 - Limited Commit `git log -p -6`  {6: last 6 commits}
 - q: to exit
+
 ##### `git diff`
 - Compares working directory with Staged file
 - Shows: Both old and new code
 ##### `git diff --staged`
-- - Compares working directory with last commit
+- Compares working directory with last commit
 
+##### `git rm --cached deleteme.md`
+- Removes the file from Staging area
+##### `git rm deleteme.md`
+- Removes the file from Hard disk 
+
+##### `touch about.html`
+- creates a file
 ---
 ## Some Keywords
 
