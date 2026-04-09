@@ -55,9 +55,18 @@
 ##### `git status`
 - after the last commit, does any changes occurred and what else "clean tree". 
 - Red: Non Staged files
-- Green: Ready to Commit
+- Green: Ready to Commit 
+- Both Green and Red: g-last time staged file, r-new changes that aren't staged 
 ##### `touch about.html`
 - creates a file
+##### ==`git checkout index.html`==
+- Example
+	1. Earlier: `git status`: tree clean
+	2. After: "Someone updated my index.html"    ⇒   Complete Blunder
+	3. Solution: `git checkout index.html`: Matched current directory with last commit
+- For multiple files
+	`git checkout -f`
+
 
 ---
 ## Some Keywords
@@ -84,7 +93,7 @@
 ## Example
 
 ```
-git add .
+git add -A
 git commit -m "init: setup project with Node.js"
 
 git add .
@@ -98,10 +107,17 @@ git commit -m "feat: implement fs appendFile"
 
 git add .
 git commit -m "refactor: clean code and structure"
+
 ```
 
 ---
 
+
+## Other
+
+- Shortcut
+	1. Active window of Git bash
+	2. `ctrl + +`: Zoom in
 
 
 echo .obsidian/ >> .gitignore
