@@ -46,6 +46,10 @@
 ---
 ## Other Useful Commands
 
+##### `git add .`
+- stages changes at onwards directory
+##### `git add -A`
+- stages changes 
 ##### `ls -lart`
 - Shows all folders and file on current directory
 ##### `git status`
@@ -54,10 +58,6 @@
 - Green: Ready to Commit
 ##### `touch about.html`
 - creates a file
-##### `git add .`
-- stages changes at onwards directory
-##### `git add -A`
-- stages changes 
 
 ---
 ## Some Keywords
