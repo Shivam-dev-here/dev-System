@@ -1,14 +1,19 @@
 **GitHub**: A cloud platform to **store, manage, and collaborate on code using Git (version control)**.
 
+---
 
 | S no. |           Name           | Description |
 | :---: | :----------------------: | :---------: |
 |   1   | Git Installation & Setup |      -      |
 |   2   |                          |             |
 - Git Installation & Setup
-- Commit Types
-- Examples
 - Initialize Repo
+- Examples
+- Some Keywords
+- Different States of file
+- Commit Types
+- commands
+- Other
 
 ---
 ## Git Installation & Setup
@@ -39,12 +44,50 @@
 	 6. Refer Example for future commits
 
 ---
+## Example
+
+```
+git add -A
+git commit -m "init: setup project with Node.js"
+
+git add .
+git commit -m "feat: implement fs readFile"
+
+git add .
+git commit -m "feat: implement fs writeFile"
+
+git add .
+git commit -m "feat: implement fs appendFile"
+
+git add .
+git commit -m "refactor: clean code and structure"
+
+```
+
+---
+## Some Keywords
+
+- Stages: ready these files for commit
+- Commit: Declared the changes with it's Title
+
+---
 ## Different States of file
 
 ![[Pasted image 20260410004501.png]]
 
 ---
-## Other Useful Commands
+## Commit types
+
+- `feat` → new feature
+- `fix` → bug fix
+- `refactor` → improve code
+- `docs` → documentation
+- `test` → add/update tests
+- `chore` → minor tasks (config, setup)
+- `perf` → performance improvement
+
+---
+## Commands
 
 ##### `git add .`
 - stages changes at onwards directory
@@ -60,7 +103,7 @@
 - skips staging and commits
 
 ---
-##### `git status`
+##### ==`git status`==
 1. Basic
 	- after the last commit, does any changes occurred and what else "clean tree". 
 	- Red: Non Staged files
@@ -99,7 +142,7 @@
 	`git checkout -f`
 	
 ---
-##### `.gitignore`
+##### ==`.gitignore`==
 
 - ignore extension on entire repo  : ` *.env`
 - ignore a file on entire repo          : ` mylogs.log`
@@ -107,8 +150,6 @@
 - ignore a folder from root            : `/node_modules/slug/
 - `
 ---
-
-
 ##### `git log`
 - Shows all commit with committer, author and details
 - Limited Commit `git log -p -6`  {6: last 6 commits}
@@ -129,52 +170,6 @@
 - creates a file
 
 ---
-
----
-## Some Keywords
-
-- Stages: ready these files for commit
-- Commit: Declared the changes with it's Title
-
----
-
-
-
-
-## Commit types
-
-- `feat` → new feature
-- `fix` → bug fix
-- `refactor` → improve code
-- `docs` → documentation
-- `test` → add/update tests
-- `chore` → minor tasks (config, setup)
-- `perf` → performance improvement
-
----
-## Example
-
-```
-git add -A
-git commit -m "init: setup project with Node.js"
-
-git add .
-git commit -m "feat: implement fs readFile"
-
-git add .
-git commit -m "feat: implement fs writeFile"
-
-git add .
-git commit -m "feat: implement fs appendFile"
-
-git add .
-git commit -m "refactor: clean code and structure"
-
-```
-
----
-
-
 ## Other
 
 - Shortcut
