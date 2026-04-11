@@ -165,9 +165,21 @@ git commit -m "refactor: clean code and structure"
 	2. SSH and GPGs keys
 	3. Generating SSH keys
 	4. Generating a new SSH keys and adding it to the ssh-agent
-	5. copy : 
-
-
+	5. copy : `ssh-keygen -t ed25519 -C "your_email@example.com"`
+	6. paste on bash with your email.
+	7. paste on bash `eval "$(ssh-agent -s)"`
+	8. outputs an agent pid
+	9. paste on bash:  `ssh-add ~/.ssh/id_rsa`
+	10.  paste on bash : `cat ~/.ssh/id_rsa.pub`
+	11. Outputs content, Copy all   ---> let it be x1a
+	12. Go to Setting > SSH and GPG keys > New SSH keys
+	13. paste x1a and give a suitable title
+	14. Go to your private repo and click on SSH 
+	15. ![[Pasted image 20260412013734.png|345]]
+	16. copy the beside given URL, let it be x1b
+	17. Git Bash : `git remote set-url origin x1b`
+	18. Git Bash : `git push -u origin`
+	19. Git Bash : `yes`
 
 ---
 ##### `git log`
