@@ -75,7 +75,10 @@ git commit -m "refactor: clean code and structure"
 ## Different States of file
 
 ![[Images/git-states.png|533]]
+
 ---
+
+![git ssh|470](images/git-SSH.png)
 ## Commit types
 
 - `feat` → new feature
