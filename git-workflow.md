@@ -1,4 +1,4 @@
-**GitHub**: A cloud platform to **store, manage, and collaborate on code using Git (version control)**.
+P**GitHub**: A cloud platform to **store, manage, and collaborate on code using Git (version control)**.
 
 ---
 
@@ -147,8 +147,28 @@ git commit -m "refactor: clean code and structure"
 - ignore extension on entire repo  : ` *.env`
 - ignore a file on entire repo          : ` mylogs.log`
 - ignore a folder on entire repo     : ` mylogs/`
-- ignore a folder from root            : `/node_modules/slug/
-- `
+- ignore a folder from root            : `/node_modules/slug/`
+---
+##### ==`Git Branch`==
+- Example: 
+- Theory: master running a website with some bugs, feature1 fixed those issues 
+
+- `git branch`   :  shows all branch
+- `git branch feature1`    :   creates a new feature1 named branch
+- `git checkout feature1` :   switch branch
+- `git checkout -b feature2`  :  creates and switch branch
+- `git merge feature1`     :  merges with current branch
+---
+##### ==`Private Repository`==
+- Theory: won't be able to push or fetch for private, follow steps after creating a repo
+	1. settings
+	2. SSH and GPGs keys
+	3. Generating SSH keys
+	4. Generating a new SSH keys and adding it to the ssh-agent
+	5. copy : 
+
+
+
 ---
 ##### `git log`
 - Shows all commit with committer, author and details

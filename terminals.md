@@ -12,7 +12,7 @@
 ---
 ## Terminal Navigation & File System
 
-#### Bash Commands
+### Bash Commands
 
 - `# i am a comment` :  comment in bash
 - `pwd` : Print Working directory

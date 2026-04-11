@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "terminals.md",
+                "file": "git-workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "terminals"
+              "title": "git-workflow"
             }
           }
         ]
@@ -185,9 +185,10 @@
   },
   "active": "e1e5726fd46e7220",
   "lastOpenFiles": [
-    "git-workflow.md",
     "terminals.md",
     "documentation-tools.md",
+    "README.md",
+    "git-workflow.md",
     ",",
     "Pasted image 20260410004501.png",
     "dev-System.code-workspace"
