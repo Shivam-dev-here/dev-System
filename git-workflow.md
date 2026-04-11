@@ -1,19 +1,20 @@
-P**GitHub**: A cloud platform to **store, manage, and collaborate on code using Git (version control)**.
+**GitHub**: A cloud platform to **store, manage, and collaborate on code using Git (version control)**.
 
 ---
 
-| S no. |           Name           | Description |
-| :---: | :----------------------: | :---------: |
-|   1   | Git Installation & Setup |      -      |
-|   2   |                          |             |
-- Git Installation & Setup
-- Initialize Repo
-- Examples
-- Some Keywords
-- Different States of file
-- Commit Types
-- commands
-- Other
+## Table of Content
+
+| S no. |                                                            Name                                                             | Importance |
+| :---: | :-------------------------------------------------------------------------------------------------------------------------: | :--------: |
+|   1   |                                                  Git Installation & Setup                                                   |    High    |
+|   2   |                                                       Initialize Repo                                                       |    High    |
+|   3   |                                                          Examples                                                           |    low     |
+|   4   |                                                        Some Keywords                                                        |    low     |
+|   5   |                                                  Different States of file                                                   |    low     |
+|   6   |                                                        Commit Types                                                         |    Mid     |
+|   7   | Commands<br>  1. status<br>    	2. checkout<br>     	3. .gitignore<br>	4. branch<br>	                 5. Private repository |    High    |
+|   8   |                                                     Clone a repository                                                      |    low     |
+|   9   |                                                            Other                                                            |    low     |
 
 ---
 ## Git Installation & Setup
@@ -211,5 +212,5 @@ git commit -m "refactor: clean code and structure"
 ## Other
 
 - Shortcut
-	1. Active window of Git bash
+	1. Activate window of Git bash
 	2. `ctrl + +`: Zoom in
