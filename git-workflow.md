@@ -202,11 +202,14 @@ git commit -m "refactor: clean code and structure"
 - creates a file
 
 ---
+## Clone a Repository 
+1. Create a folder and open with bash
+2. GitHub > Copy the URL of repository that will be cloned, let it be x2a
+3. Git Bash : `git clone x2a Shivam`
+
+---
 ## Other
 
 - Shortcut
 	1. Active window of Git bash
 	2. `ctrl + +`: Zoom in
-
-
-echo .obsidian/ >> .gitignore
