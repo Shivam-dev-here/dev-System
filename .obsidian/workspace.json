@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a5715276af499a94",
+        "id": "d5559cab27797fa4",
         "type": "tabs",
         "children": [
           {
-            "id": "e1e5726fd46e7220",
+            "id": "ab98b51175b54e9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,15 +183,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "e1e5726fd46e7220",
+  "active": "ab98b51175b54e9f",
   "lastOpenFiles": [
+    "Images/git-SSH.md",
+    "git-workflow.md",
+    "Images/git-SSH.png",
+    "Images/git-states.png",
+    "Images/Pasted image 20260410004501.png",
     "Pasted image 20260412013734.png",
+    "Images/Pasted image 20260412013734.png",
+    "Images",
     "Pasted image 20260412013647.png",
     "Pasted image 20260412013518.png",
     "terminals.md",
     "documentation-tools.md",
     "README.md",
-    "git-workflow.md",
     ",",
     "Pasted image 20260410004501.png",
     "dev-System.code-workspace"

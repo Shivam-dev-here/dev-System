@@ -74,8 +74,7 @@ git commit -m "refactor: clean code and structure"
 ---
 ## Different States of file
 
-![[Pasted image 20260410004501.png]]
-
+![[Images/git-states.png|533]]
 ---
 ## Commit types
 
@@ -176,7 +175,7 @@ git commit -m "refactor: clean code and structure"
 	12. Go to Setting > SSH and GPG keys > New SSH keys
 	13. paste x1a and give a suitable title
 	14. Go to your private repo and click on SSH 
-	15. ![[Pasted image 20260412013734.png|345]]
+	15. ![[images/git-SSH.png|313]]
 	16. copy the beside given URL, let it be x1b
 	17. Git Bash : `git remote set-url origin x1b`
 	18. Git Bash : `git push -u origin`
