@@ -187,6 +187,7 @@ git commit -m "refactor: clean code and structure"
 - Shows all commit with committer, author and details
 - Limited Commit `git log -p -6`  {6: last 6 commits}
 - q: to exit
+- `git log --oneline -n 5`: Shows only last 5 commit
 
 ##### `git diff`
 - Compares working directory with Staged file
