@@ -1,5 +1,4 @@
-
-
+- Bash & CMD
 ---
 ## Terminals, Bash, Shell, Linux
 
