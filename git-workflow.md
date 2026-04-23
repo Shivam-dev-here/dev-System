@@ -197,6 +197,13 @@ git commit -m "refactor: clean code and structure"
 
 ##### `git rm --cached deleteme.md`
 - Removes the file from Staging area
+
+##### `git reset --soft HEAD~3`
+- Revert commit before push
+
+##### `git revert HEAD~2..HEAD`
+- Revert commit after push
+
 ##### `git rm deleteme.md`
 - Removes the file from Hard disk 
 

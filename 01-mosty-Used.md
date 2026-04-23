@@ -4,7 +4,6 @@
 Root
 ├── Moduls/
 │   └── Todo.js
-├── main.js
 └── Install & Apply.md
 ```
 ---
@@ -16,9 +15,11 @@ Root
 - ignore a folder on entire repo     : ` mylogs/`
 - ignore a folder from root            : `/node_modules/slug/`
 ---
-- `git rm --cached deleteme.md`
-- `touch about.html`
+- `git rm --cached deleteme.md`     `touch about.html`     `git log --oneline -n 5`
+- `feat`   `fix`   `refactor`   `docs`    `test`   `chore`    `perf` 
 ---
 -  Bash:    `ls`    `clear`    `cd "Move in"`   `cd ..`    `code img.jpeg`    `python virtualpaint.py`
 - CMD:     `dir`   `clr`
+---
+- `<img src="#" height="auto" width="433">`
 ---
